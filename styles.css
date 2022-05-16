@@ -1,0 +1,144 @@
+/* linking to external styles */
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300&display=swap");
+
+/* styles */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.25rem;
+}
+
+body {
+  background-image: url(./assets/blur-02.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+header {
+  display: flex;
+}
+
+header h1 {
+  display: flex;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 300;
+  align-items: center;
+  justify-content: center;
+  height: 10vh;
+  width: 100%;
+  margin: 1rem;
+  letter-spacing: 0.1rem;
+  color: rgb(19, 53, 85);
+}
+
+.calculator__display {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  height: 4.5em;
+  background-color: whitesmoke;
+  border-radius: 8px;
+  box-shadow: 0 7px 9px rgba(0, 0, 0, 0.18);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 15px;
+  margin-bottom: 12px;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.display__valueA {
+  opacity: 0.25;
+  color: rgb(19, 53, 85);
+  font-size: 1.5rem;
+}
+
+.display__valueB {
+  color: rgb(19, 53, 85);
+  font-size: 1.5rem;
+}
+
+#zero {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+#clear {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+#divide {
+  grid-column-start: 4;
+  grid-column-end: 5;
+}
+
+#equals {
+  grid-column-start: 3;
+  grid-column-end: 5;
+}
+
+.calculator__grid {
+  display: grid;
+  background-color: rgba(255, 255, 255, 0.6);
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-gap: 15px;
+  height: 500px;
+  width: 325px;
+  margin: 0px auto;
+  margin-top: 40px;
+  align-content: center;
+  justify-content: center;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.18);
+  background-color: #ffffff91;
+  backdrop-filter: blur(12px);
+}
+
+.calculator__btn,
+.calculator__btn-num,
+.calculator__btn-sum,
+.calculator__btn-clr,
+.calculator__btn-dec {
+  border: none;
+  background-color: transparent;
+  font-family: inherit;
+  padding: 0;
+  cursor: pointer;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: rgb(19, 53, 85);
+  color: rgb(255, 255, 255);
+  border-radius: 20px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.18);
+
+  padding: 0.25em 0.75em;
+  text-align: center;
+  line-height: 1.1;
+  font-weight: 200;
+}
+
+.calculator__btn-num:hover {
+  background-color: rgba(19, 53, 85, 0.75);
+}
+
+.calculator__btn:hover {
+  background-color: rgba(19, 53, 85, 0.75);
+}
+
+.calculator__btn-clr:hover {
+  background-color: rgba(19, 53, 85, 0.75);
+}
+
+.calculator__btn-sum:hover {
+  background-color: rgba(19, 53, 85, 0.75);
+}
