@@ -1,5 +1,6 @@
-Task:
-To build a calculator using HTML, CSS and JavaScript. This calculator should accept inputs from a user, is able to perform a range of calculations and will produce an output.
+# JS Calculator
+
+## To build a calculator using HTML, CSS and JavaScript. This calculator should accept inputs from a user, is able to perform a range of calculations and will produce an output.
 
 
 Breaking down the problem --> Essential functionality needed:
