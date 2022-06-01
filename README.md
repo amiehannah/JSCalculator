@@ -4,7 +4,6 @@
 </br>
 
 #### Project Link [_here_](https://amiehannah.github.io/js-calculator/).
-
 ##
 
 ![Calculator Design](assets/js-calculator-screenshot.png)
