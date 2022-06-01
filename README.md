@@ -1,10 +1,23 @@
 # JS Calculator
+> To build a calculator using HTML, CSS and JavaScript. This calculator should accept inputs from a user, is able to perform a range of calculations and will produce a visual output.
+> Project Link [_here_](https://amiehannah.github.io/js-calculator/).
 
-## To build a calculator using HTML, CSS and JavaScript. This calculator should accept inputs from a user, is able to perform a range of calculations and will produce an output.
+
+![Calculator Design](assets/js-calculator-screenshot.png)
+
+## User Story: 
+
+* As a user of the calculator, I want to be able to perform maths calculations, 
+so that I can solve numerical problems accurately.
+* Given that the user clicks on a number button, this number should then be stored to be used in calculations. 
+* Given that the user clicks on an operand button ( +, -, /, * ), this should trigger the correct operator to be used in calculations.
+* Given that the user clicks on the decimal button, this should add a decimal point at the correct position and allow the user to calculate numbers that are fractions.
+* Given that the user clicks on the equals button, this should evaluate the sum and return a total value.
+* Given that the user clicks on the clear button, the calculator values and display should reset, ready to be used again. 
 
 
+## Functionality: 
 Breaking down the problem --> Essential functionality needed:
-
 - Addition
 - Subtraction
 - Division
@@ -14,6 +27,7 @@ Breaking down the problem --> Essential functionality needed:
 - Also work with decimals
 
 
+// UPDATE THIS
 Logic:
 1. Listens out for buttons pressed from a user and displays these
 2. Store this number to be used in calculations
@@ -21,13 +35,6 @@ Logic:
 4. Listens for the next set of number buttons selected
 5. When the user clicks equals - this needs to perform the maths and return a total value
 6. When the user clicks clear the calculator needs to reset.
-
-
-Requirements:
-- Minimum of 10 Git commits for the development.
-- Accept a minimum of 2 inputs, perform an operation and return the output.
-- Mobile first approach
-
 
 
 Approach:
@@ -60,6 +67,17 @@ On pressing the clear button all variables are reset and the display is cleared,
 - Decimal button functionality --> 
 To prevent the user from adding more than one decimal point, I have added an event listener and used the method includes(".") to determine whether the firstValue includes this character and if so only add one.
 
+## Technologies & Features: 
+* JavaScript
+* HTML5
+* CSS
+* Mobile first / responsive design
+* UI - features unique mesh gradient background I created in Adobe Illustrator.
 
-UI:
-- I created a mesh gradient in Illustrator which I've then applied to the background of the webpage
+
+## Further Developments:
+- Integrate keyboard events, to allow the users interaction with numeric keys to select inputs and operands - instead of just clicking on the buttons.
+
+## Contact
+Created by [Amie Edwards](amie.edwards17@gmail.com)
+
