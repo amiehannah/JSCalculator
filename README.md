@@ -1,5 +1,6 @@
 # JS Calculator
 > To build a calculator using HTML, CSS and JavaScript. This calculator should accept inputs from a user, is able to perform a range of calculations and will produce a visual output.
+</br>
 > Project Link [_here_](https://amiehannah.github.io/js-calculator/).
 
 
@@ -79,5 +80,5 @@ To prevent the user from adding more than one decimal point, I have added an eve
 - Integrate keyboard events, to allow the users interaction with numeric keys to select inputs and operands - instead of just clicking on the buttons.
 
 ## Contact
-Created by [Amie Edwards](amie.edwards17@gmail.com)
+Created by [Amie Edwards](mailto:amie.edwards17@gmail.com)
 
