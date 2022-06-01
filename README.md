@@ -4,6 +4,8 @@
 > </br>
 > Project Link [_here_](https://amiehannah.github.io/js-calculator/).
 
+##
+
 ![Calculator Design](assets/js-calculator-screenshot.png)
 
 ## User Story:
@@ -37,7 +39,7 @@ Breaking down the problem:
 - User then selects an operator button
 - Listens for the next set of number buttons selected
 - When the user clicks equals - this needs to perform the maths and return a total value
-- When the user clicks clear the calculator needs to reset
+- When the user clicks clear - the calculator needs to reset
 
 Approach:
 
@@ -62,7 +64,7 @@ Approach:
 
 7. Decimal button functionality
    </br>
-   To prevent the user from adding more than one decimal point, I have added an event listener and used the method includes(".") to determine whether the firstValue includes this character and if so only add one.
+   To prevent the user from adding more than one decimal point, I have added an event listener and used the js string method 'includes'(".") to determine whether the firstValue includes this character and if so only add one.
 
 ## Technologies & Features:
 
