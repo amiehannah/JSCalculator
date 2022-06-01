@@ -3,7 +3,7 @@
 > To build a calculator using HTML, CSS and JavaScript. This calculator should accept inputs from a user, is able to perform a range of calculations and will produce a visual output.
 > </br>
 
-#### > Project Link [_here_](https://amiehannah.github.io/js-calculator/).
+#### Project Link [_here_](https://amiehannah.github.io/js-calculator/).
 
 ##
 
