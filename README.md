@@ -31,16 +31,6 @@ Essential functionality needed:
 - Visually display the answer / output
 - Work with decimals
 
-Breaking down the problem:
-</br>
-
-- Listens out for buttons pressed from a user and displays these
-- Store this number to be used in calculations
-- User then selects an operator button
-- Listens for the next set of number buttons selected
-- When the user clicks equals - this needs to perform the maths and return a total value
-- When the user clicks clear - the calculator needs to reset
-
 Approach:
 
 1. First I started by selecting all the elements I needed to target in variables. I initially saved each number/operator into individual variables before changing my approach. Instead by using querySelectorAll on numberBtns and operatorBtns (to select these elements) I realised I can later iterate over them, as this returns a node list and will be far more useful in some of the functionality.
