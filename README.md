@@ -3,6 +3,7 @@
 > _To build a calculator using HTML, CSS and JavaScript. This calculator should accept inputs from a user, is able to perform a range of calculations and will produce a visual output._ </br>
 
 #### Project Link [_here_](https://amiehannah.github.io/js-calculator/).
+
 ##
 
 ![Calculator Design](assets/js-calculator-screenshot.png)
@@ -32,20 +33,20 @@ Essential functionality needed:
 
 Approach:
 
-1. First I started by selecting all the elements I needed to target in variables. I initially saved each number/operator into individual variables before changing my approach. Instead by using querySelectorAll on numberBtns and operatorBtns (to select these elements) I realised I can later iterate over them, as this returns a node list and will be far more useful in some of the functionality.
+1. First I started by selecting all the elements I needed to target in variables. I initially saved each number/operator into individual variables before changing my approach. Instead by using `querySelectorAll` on numberBtns and operatorBtns (to select these elements) I realised I can later iterate over them, as this returns a node list and will be far more useful in some of the functionality.
 
-2. The array iterator I used to loop over the numberBtns/operatorBtns was forEach(). By adding an event listener, listening out for the click event I was able to capture the value of these buttons.
+2. The array iterator I used to loop over the numberBtns/operatorBtns was `forEach()`. By adding an event listener, listening out for the click event I was able to capture the value of these buttons.
    </br> For the number buttons I stored the number selected inside a variable to use later in the calculations. I then updated the display of the calculator to reflect the chosen firstValue.
 
 3. After the firstValue has been selected, I then set up an event listener to capture the value of the operator clicked by the user.
 
 4. One part of the functionality of my design was to create a calculator display split into two parts to allow the user to see the previous value and operator, or sum they had entered whilst performing calculations. </br>
-   Once the firstValue has been selected and an operator, update the innerHTML of the top display to show these values. At this stage the firstValue number is then stored within a variable called storedValue and the firstValue is set to blank, to accept the next value chosen by the user.
+   Once the firstValue has been selected and an operator, update the `innerHTML` of the top display to show these values. At this stage the firstValue number is then stored within a variable called storedValue and the firstValue is set to blank, to accept the next value chosen by the user.
    </br> The bottom display will show the sum of the calculation.
 
 5. Calculate total functionality
    </br>
-   I used an if/else if statement to work through the operators and return the value computed by the operator selected. Then updating the calculator display with the sum. I then reset the variables used to store my number values to allow the user to make additional calculations should they wish to.
+   I used an `if/else if` statement to work through the operators and return the value computed by the operator selected. Then updating the calculator display with the sum. I then reset the variables used to store my number values to allow the user to make additional calculations should they wish to.
 
 6. Clear button functionality
    </br>
@@ -53,7 +54,19 @@ Approach:
 
 7. Decimal button functionality
    </br>
-   To prevent the user from adding more than one decimal point, I have added an event listener and used the js string method 'includes'(".") to determine whether the firstValue includes this character and if so only add one.
+   To prevent the user from adding more than one decimal point, I have added an event listener and used the js string method `includes(".")` to determine whether the firstValue includes this character and if so only add one.
+
+## Inbuilt JS Methods:
+
+The following inbuilt JavaScript methods are used in this codebase:
+
+- `document.querySelector()` `document.querySelectorAll()`
+- `element.innerHTML`
+- `array.forEach()`
+- `element.addEventListener()`
+- `if/else if`
+- `parseFloat()`
+- `string.includes()`
 
 ## Technologies & Features:
 
@@ -61,6 +74,7 @@ Approach:
 - HTML5
 - CSS
 - Mobile first / responsive design
+- Git version control
 - UI - features unique mesh gradient background I created in Adobe Illustrator.
 
 ## Further Developments:
