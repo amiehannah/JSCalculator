@@ -51,7 +51,7 @@ operatorBtns.forEach((operatorBtn) => {
       storedValue = parseFloat(firstValue);
       firstValue = "";
     }
-  // if the user wants to continue to make additional calculations - move sum to the top display and let the bottom display return to blank to accept further values
+    // if the user wants to continue to make additional calculations - move sum to the top display and let the bottom display return to blank to accept further values
     if (sum) {
       topCalcDisplay.innerHTML = sum + " " + operator;
       btmCalcDisplay.innerHTML = "";
